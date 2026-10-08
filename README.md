@@ -233,6 +233,8 @@ x = 8, y = -1, z = 4 - результат: false
 <img width="381" height="104" alt="image" src="https://github.com/user-attachments/assets/8e757bf0-5347-45b7-a9d0-5ef2311fbe0d" />
 <img width="400" height="105" alt="image" src="https://github.com/user-attachments/assets/cff637e3-9b88-4178-b0ef-f1ef4ba57394" />
 <img width="345" height="109" alt="image" src="https://github.com/user-attachments/assets/7deedde5-ddd6-41b8-a48e-7998479ae519" />
+<img width="335" height="113" alt="image" src="https://github.com/user-attachments/assets/74111017-e81b-44c9-b454-152b1a86ebfa" />
+
 
 
 ## Задача 5. Вывод дней недели
@@ -278,6 +280,10 @@ x = 5 - "5 4 3 2 1 0"
 
 ### Тестирование
 
+<img width="335" height="103" alt="image" src="https://github.com/user-attachments/assets/a9b575e6-863f-4ada-a48e-902223151a7f" />
+<img width="2000" height="178" alt="image" src="https://github.com/user-attachments/assets/485f2484-0537-43c9-b34c-9c74374270e3" />
+
+
 ## Задача 2. Возведение в степень
 
 ### Текст задачи
@@ -295,6 +301,10 @@ x = 2, y = 5 - результат: 32
 3. Возвращаем результат.
 
 ### Тестирование
+
+<img width="694" height="116" alt="image" src="https://github.com/user-attachments/assets/c5bb85f1-7851-436f-b70f-3b777d00d4f4" />
+<img width="676" height="117" alt="image" src="https://github.com/user-attachments/assets/7491968b-d1ef-46c0-914e-dfd1c43e123b" />
+
 
 ## Задача 3. Одинаковость цифр
 
@@ -314,6 +324,10 @@ x = 2, y = 5 - результат: 32
 4. Если нашли отличие - возвращаем `false`.
 
 ### Тестирование
+
+<img width="427" height="120" alt="image" src="https://github.com/user-attachments/assets/33bd5c9a-70b5-4c74-ab39-948d65fd91d5" />
+<img width="407" height="110" alt="image" src="https://github.com/user-attachments/assets/abaf4d20-d77a-4bb3-a76a-80ea6cc1f339" />
+
 
 ## Задача 4. Левый треугольник
 
@@ -338,6 +352,10 @@ x = 4
 
 ### Тестирование
 
+<img width="541" height="178" alt="image" src="https://github.com/user-attachments/assets/138e3d12-a15e-4635-9f4f-e77a7e7f51e6" />
+<img width="483" height="150" alt="image" src="https://github.com/user-attachments/assets/dd9ae410-dc77-4735-a170-6729f74ecbe2" />
+
+
 ## Задача 5. Угадайка
 
 ### Текст задачи
@@ -358,6 +376,9 @@ x = 4
 4. Сравниваем с секретным числом, повторяем до совпадения.
 
 ### Тестирование
+
+<img width="639" height="292" alt="image" src="https://github.com/user-attachments/assets/0238c934-7e35-4c8e-ab33-f66e294730f7" />
+
 
 # Задание 4. Массивы
 
@@ -457,16 +478,5 @@ arr = [1, 2, -3, 4, -2, 2, -5]
 4. Возвращаем указатель на новый массив.
 
 ### Тестирование
-
-# Вывод
-
-В ходе выполнения лабораторной работы были изучены и закреплены следующие темы:
-
-- Работа с функциями и типами возвращаемых значений (`int`, `double`, `bool`, `std::string`, `void`).
-- Условные операторы `if`, `else if`, `switch`.
-- Циклы `for`, `while`, `do-while`.
-- Работа со строками и функцией `std::to_string`.
-- Генерация случайных чисел (`std::rand`, `std::srand`).
-- Работа с массивами: перебор, поиск, вставка, реверс, объединение, фильтрация.
 - Динамическая память: `new[]` и `delete[]`.
 - Организация меню и защита ввода от некорректных данных.
