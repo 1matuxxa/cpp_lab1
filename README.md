@@ -24,6 +24,8 @@ x = 4568
 
 <img width="592" height="79" alt="image" src="https://github.com/user-attachments/assets/12153169-d0bf-4a80-95ad-aa1b895bf67d" />
 <img width="620" height="90" alt="image" src="https://github.com/user-attachments/assets/0dbcbef4-c457-4cb4-b010-ecb3bbcb936b" />
+<img width="666" height="99" alt="image" src="https://github.com/user-attachments/assets/c45479d4-896d-4edc-bb00-ac7c00f8158d" />
+
 
 ## Задача 2. Проверка на положительность
 
@@ -45,6 +47,10 @@ x = -5 - результат: false
 
 ### Тестирование
 
+<img width="626" height="100" alt="image" src="https://github.com/user-attachments/assets/1a302f6b-af2b-4e9d-800e-f8f55fb3d451" />
+<img width="613" height="109" alt="image" src="https://github.com/user-attachments/assets/c0cca96b-663b-4a45-83b8-d4ebc6483fa8" />
+
+
 ## Задача 3. Большая буква
 
 ### Текст задачи
@@ -64,6 +70,10 @@ x = 'q' - результат: false
 2. Если `x >= 'A' && x <= 'Z'` - возвращаем `true`, иначе `false`.
 
 ### Тестирование
+
+<img width="512" height="113" alt="image" src="https://github.com/user-attachments/assets/5f275791-43df-483c-a65d-a4f07372a6f2" />
+<img width="497" height="98" alt="image" src="https://github.com/user-attachments/assets/19538104-ff32-44fc-999f-0be4c9ed2d79" />
+
 
 ## Задача 4. Проверка делителей
 
