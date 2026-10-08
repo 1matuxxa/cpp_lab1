@@ -96,6 +96,10 @@ a = 2, b = 15 - результат: false
 
 ### Тестирование
 
+<img width="674" height="103" alt="image" src="https://github.com/user-attachments/assets/5e98adb4-ef62-46e6-8760-5ebde088c4e8" />
+<img width="655" height="105" alt="image" src="https://github.com/user-attachments/assets/a7a904b3-192c-44a8-aef2-c47432588402" />
+
+
 ## Задача 5. Многократный вызов
 
 ### Текст задачи
@@ -116,6 +120,9 @@ a = 2, b = 15 - результат: false
 2. В `main` последовательно вызываем функцию для пяти чисел, передавая результат предыдущего вызова как первое число.
 
 ### Тестирование
+
+<img width="661" height="109" alt="image" src="https://github.com/user-attachments/assets/b5b8064c-5583-4dd0-a5f4-f9d9d74743e4" />
+
 
 # Задание 2. Условия
 
@@ -139,6 +146,10 @@ x = 8, y = 2 - результат: 4
 3. Иначе возвращаем `(double)x / y`.
 
 ### Тестирование
+
+<img width="484" height="102" alt="image" src="https://github.com/user-attachments/assets/bcbe3c2c-1d11-4d91-8ece-8c435fd1a8f2" />
+<img width="449" height="110" alt="image" src="https://github.com/user-attachments/assets/c7bf83b8-d6e8-4321-a0bd-5d04403deeb7" />
+
 
 ## Задача 2. Строка сравнения
 
