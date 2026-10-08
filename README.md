@@ -175,6 +175,11 @@ x = 4, y = 4 - результат: "4 == 4"
 
 ### Тестирование
 
+<img width="463" height="118" alt="image" src="https://github.com/user-attachments/assets/87aa9228-a22e-4c86-91b3-c631d51ea171" />
+<img width="475" height="108" alt="image" src="https://github.com/user-attachments/assets/11ea912b-47b7-4448-92cb-eed3adb025ec" />
+<img width="519" height="112" alt="image" src="https://github.com/user-attachments/assets/adf91e32-d502-400e-9d5c-28da41488e72" />
+
+
 ## Задача 3. Тройная сумма
 
 ### Текст задачи
@@ -196,6 +201,10 @@ x = 8, y = -1, z = 4 - результат: false
 4. Если ни одно условие не выполнилось - `false`.
 
 ### Тестирование
+
+<img width="456" height="104" alt="image" src="https://github.com/user-attachments/assets/0b24317a-4194-4cda-a319-5b241b433be1" />
+<img width="492" height="108" alt="image" src="https://github.com/user-attachments/assets/9b45f840-4d26-465c-96c3-5d4a7ecbd84a" />
+
 
 ## Задача 4. Возраст
 
@@ -221,6 +230,11 @@ x = 8, y = -1, z = 4 - результат: false
 
 ### Тестирование
 
+<img width="381" height="104" alt="image" src="https://github.com/user-attachments/assets/8e757bf0-5347-45b7-a9d0-5ef2311fbe0d" />
+<img width="400" height="105" alt="image" src="https://github.com/user-attachments/assets/cff637e3-9b88-4178-b0ef-f1ef4ba57394" />
+<img width="345" height="109" alt="image" src="https://github.com/user-attachments/assets/7deedde5-ddd6-41b8-a48e-7998479ae519" />
+
+
 ## Задача 5. Вывод дней недели
 
 ### Текст задачи
@@ -238,6 +252,10 @@ x = 8, y = -1, z = 4 - результат: false
 3. Для чисел вне диапазона - `default`.
 
 ### Тестирование
+
+<img width="369" height="109" alt="image" src="https://github.com/user-attachments/assets/b35fdb3e-923a-4d5d-a0ab-32403ad6b54a" />
+<img width="699" height="121" alt="image" src="https://github.com/user-attachments/assets/d78c6320-d24e-4af3-9b12-2cfc60c6d53b" />
+
 
 # Задание 3. Циклы
 
