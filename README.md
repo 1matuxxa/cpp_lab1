@@ -400,6 +400,12 @@ arr = [1, 2, 3, 4, 2, 2, 5], x = 2 - результат: 5
 
 ### Тестирование
 
+arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
+<img width="422" height="96" alt="image" src="https://github.com/user-attachments/assets/f44fc8ba-911f-461b-9141-b769a53779a5" />
+<img width="359" height="90" alt="image" src="https://github.com/user-attachments/assets/83e6df9a-8e34-4dba-9818-eae396fba1f2" />
+<img width="370" height="83" alt="image" src="https://github.com/user-attachments/assets/ea1c2044-3828-42e2-a45d-0eb2e57d53c2" />
+
+
 ## Задача 2. Добавление в массив
 
 ### Текст задачи
@@ -421,6 +427,11 @@ arr = [1, 2, 3, 4, 5], x = 9, pos = 3
 
 ### Тестирование
 
+arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
+<img width="378" height="137" alt="image" src="https://github.com/user-attachments/assets/6c3dee09-9747-4e90-8c0f-7f7704c48bb7" />
+<img width="489" height="138" alt="image" src="https://github.com/user-attachments/assets/a14ee58f-284d-451a-9bb8-3e45aec9cc31" />
+
+
 ## Задача 3. Реверс массива
 
 ### Текст задачи
@@ -438,6 +449,10 @@ arr = [1, 2, 3, 4, 5] - arr = [5, 4, 3, 2, 1]
 3. Функция возвращает `void`, изменения происходят прямо в исходном массиве.
 
 ### Тестирование
+
+arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
+<img width="370" height="55" alt="image" src="https://github.com/user-attachments/assets/e2c12164-8dba-47a9-8785-0496efb163e6" />
+
 
 ## Задача 4. Объединение массивов
 
@@ -459,6 +474,11 @@ arr1 = [1, 2, 3], arr2 = [7, 8, 9]
 
 ### Тестирование
 
+arr1[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
+arr2[ARR_SIZE] = {7, 8, 9, 10, 11, 12}
+<img width="366" height="80" alt="image" src="https://github.com/user-attachments/assets/111a0a61-9fde-4f0c-a023-f170b5e18368" />
+
+
 ## Задача 5. Удаление отрицательных
 
 ### Текст задачи
@@ -478,5 +498,7 @@ arr = [1, 2, -3, 4, -2, 2, -5]
 4. Возвращаем указатель на новый массив.
 
 ### Тестирование
-- Динамическая память: `new[]` и `delete[]`.
-- Организация меню и защита ввода от некорректных данных.
+
+arr[ARR_SIZE] = {1, -2, 3, -4, -5, 6}
+<img width="343" height="70" alt="image" src="https://github.com/user-attachments/assets/1e2f251e-8021-4f6f-913b-e53aa0b6355f" />
+
