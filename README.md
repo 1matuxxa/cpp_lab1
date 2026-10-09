@@ -122,6 +122,7 @@ a = 2, b = 15 - результат: false
 ### Тестирование
 
 <img width="661" height="109" alt="image" src="https://github.com/user-attachments/assets/b5b8064c-5583-4dd0-a5f4-f9d9d74743e4" />
+<img width="631" height="122" alt="image" src="https://github.com/user-attachments/assets/1eed7918-da14-48b0-9eb3-19aa0b57281c" />
 
 
 # Задание 2. Условия
