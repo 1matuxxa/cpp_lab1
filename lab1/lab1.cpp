@@ -5,12 +5,16 @@
 #include <ctime>
 
 int myAbs(int x) {
-    if (x < 0) return -x;
+    if (x < 0) {
+        return -x;
+    }
     return x;
 }
 
 long myAbsLong(long x) {
-    if (x < 0) return -x;
+    if (x < 0) {
+        return -x;
+    }
     return x;
 }
 
@@ -43,28 +47,52 @@ int lastNumSum(int x, int y) {
 // задачи 2 - условия
 
 double safeDiv(int x, int y) {
-    if (y == 0) return 0.0;
+    if (y == 0) {
+        return 0.0;
+    }
     return (double)x / y;
 }
 
 std::string makeDecision(int x, int y) {
-    if (x > y) return std::to_string(x) + " > " + std::to_string(y);
-    else if (x < y) return std::to_string(x) + " < " + std::to_string(y);
-    else return std::to_string(x) + " == " + std::to_string(y);
+    if (x > y) {
+        return std::to_string(x) + " > " + std::to_string(y);
+    }
+    else if (x < y) {
+        return std::to_string(x) + " < " + std::to_string(y);
+    }
+    else {
+        return std::to_string(x) + " == " + std::to_string(y);
+    }
 }
 
 bool sum3(int x, int y, int z) {
-    if (x + y == z) return true;
-    else if (x + z == y) return true;
-    else if (z + y == x) return true;
-    else return false;
+    if (x + y == z) {
+        return true;
+    }
+    else if (x + z == y) {
+        return true;
+    }
+    else if (z + y == x) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 std::string age(int x) {
-    if (x % 100 >= 11 && x % 100 <= 14) return std::to_string(x) + " лет";
-    else if (x % 10 == 1) return std::to_string(x) + " год";
-    else if (x % 10 == 2 || x % 10 == 3 || x % 10 == 4) return std::to_string(x) + " года";
-    else return std::to_string(x) + " лет";
+    if (x % 100 >= 11 && x % 100 <= 14) {
+        return std::to_string(x) + " лет";
+    }
+    else if (x % 10 == 1) {
+        return std::to_string(x) + " год";
+    }
+    else if (x % 10 == 2 || x % 10 == 3 || x % 10 == 4) {
+        return std::to_string(x) + " года";
+    }
+    else {
+        return std::to_string(x) + " лет";
+    }
 }
 
 void printDays(int x) {
@@ -87,14 +115,18 @@ std::string reverseListNums(int x) {
     std::string result = "";
     for (int i = x; i >= 0; i--) {
         result += std::to_string(i);
-        if (i > 0) result += " ";
+        if (i > 0) {
+            result += " ";
+        }
     }
     return result;
 }
 
 int pow(int x, int y) {
     int result = 1;
-    for (int i = 0; i < y; i++) result = result * x;
+    for (int i = 0; i < y; i++) {
+        result = result * x;
+    }
     return result;
 }
 
@@ -104,7 +136,9 @@ bool equalNum(long x) {
     x = x / 10;
     while (x > 0) {
         int currentDigit = x % 10;
-        if (currentDigit != lastDigit) return false;
+        if (currentDigit != lastDigit) {
+            return false;
+        }
         x = x / 10;
     }
     return true;
@@ -112,7 +146,9 @@ bool equalNum(long x) {
 
 void leftTriangle(int x) {
     for (int i = 1; i <= x; i++) {
-        for (int j = 1; j <= i; j++) std::cout << "*";
+        for (int j = 1; j <= i; j++) {
+            std::cout << "*";
+        }
         std::cout << "\n";
     }
 }
@@ -147,19 +183,28 @@ void guessGame() {
 int findLast(int arr[], int size, int x) {
     int lastIndex = -1;
     for (int i = 0; i < size; i++) {
-        if (arr[i] == x) lastIndex = i;
+        if (arr[i] == x) {
+            lastIndex = i;
+        }
     }
     return lastIndex;
 }
 
 int* add(int arr[], int size, int x, int pos) {
-    if (pos < 0) pos = 0;
-    else if (pos > size) pos = size;
-
+    if (pos < 0) {
+        pos = 0;
+    }
+    else if (pos > size) {
+        pos = size;
+    }
     int* result = new int[size + 1];
-    for (int i = 0; i < pos; i++) result[i] = arr[i];
+    for (int i = 0; i < pos; i++) {
+        result[i] = arr[i];
+    }
     result[pos] = x;
-    for (int i = pos; i < size; i++) result[i + 1] = arr[i];
+    for (int i = pos; i < size; i++) {
+        result[i + 1] = arr[i];
+    }
     return result;
 }
 
@@ -173,8 +218,12 @@ void reverse(int arr[], int size) {
 
 int* concat(int arr1[], int size1, int arr2[], int size2) {
     int* result = new int[size1 + size2];
-    for (int i = 0; i < size1; i++) result[i] = arr1[i];
-    for (int i = 0; i < size2; i++) result[size1 + i] = arr2[i];
+    for (int i = 0; i < size1; i++) {
+        result[i] = arr1[i];
+    }
+    for (int i = 0; i < size2; i++) {
+        result[size1 + i] = arr2[i];
+    }
     return result;
 }
 
@@ -516,17 +565,19 @@ int main() {
             }
             case 19: {
                 int arr1[100], arr2[100];
-                std::cout << "--- Первый массив ---\n";
+                std::cout << "Первый массив: \n";
                 int size1 = inputArray(arr1, 100);
                 if (size1 == -1) break;
 
-                std::cout << "--- Второй массив ---\n";
+                std::cout << "Второй массив: \n";
                 int size2 = inputArray(arr2, 100);
                 if (size2 == -1) break;
 
                 int* res = concat(arr1, size1, arr2, size2);
                 std::cout << "Результат: \n";
-                for (int i = 0; i < size1 + size2; i++) std::cout << res[i] << " ";
+                for (int i = 0; i < size1 + size2; i++) {
+                    std::cout << res[i] << " ";
+                }
                 std::cout << "\n";
                 delete[] res;
                 break;
@@ -534,12 +585,16 @@ int main() {
             case 20: {
                 int arr[100];
                 int size = inputArray(arr, 100);
-                if (size == -1) break;
+                if (size == -1) {
+                    break;
+                }
 
                 int resultSize = 0;
                 int* res = deleteNegative(arr, size, resultSize);
                 std::cout << "Результат: \n";
-                for (int i = 0; i < resultSize; i++) std::cout << res[i] << " ";
+                for (int i = 0; i < resultSize; i++) {
+                    std::cout << res[i] << " ";
+                }
                 std::cout << "\n";
                 delete[] res;
                 break;
@@ -549,7 +604,7 @@ int main() {
                 break;
             }
             default: {
-                std::cout << "Такой операции нет! Введите число от 0 до 20.\n";
+                std::cout << "Такой операции нет. Введите число от 0 до 20.\n";
                 break;
             }
         }
