@@ -3,8 +3,6 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include <windows.h>
-#include <clocale>
 
 int myAbs(int x) {
     if (x < 0) return -x;
@@ -217,12 +215,8 @@ int inputArray(int arr[], int maxSize) {
     return n;
 }
 
-// cases
 
 int main() {
-    setlocale(LC_ALL, "ru_RU.UTF-8");
-    SetConsoleOutputCP(65001);
-
     int n = 0;
     std::cout << std::boolalpha;
     do {
