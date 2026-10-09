@@ -393,12 +393,9 @@ arr = [1, 2, 3, 4, 2, 2, 5], x = 2 - результат: 5
 
 ### Тестирование
 
-arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
-
-
-<img width="422" height="96" alt="image" src="https://github.com/user-attachments/assets/f44fc8ba-911f-461b-9141-b769a53779a5" />
-<img width="359" height="90" alt="image" src="https://github.com/user-attachments/assets/83e6df9a-8e34-4dba-9818-eae396fba1f2" />
-<img width="370" height="83" alt="image" src="https://github.com/user-attachments/assets/ea1c2044-3828-42e2-a45d-0eb2e57d53c2" />
+<img width="485" height="222" alt="image" src="https://github.com/user-attachments/assets/297e49e7-95fb-45c6-ab78-eaf05036bb54" />
+<img width="449" height="210" alt="image" src="https://github.com/user-attachments/assets/9421d5d8-cdcb-4f63-a11b-2d23ae677e50" />
+<img width="528" height="219" alt="image" src="https://github.com/user-attachments/assets/befe7410-218f-45c7-8b6c-098821856987" />
 
 
 ## Задача 2. Добавление в массив
@@ -422,11 +419,8 @@ arr = [1, 2, 3, 4, 5], x = 9, pos = 3
 
 ### Тестирование
 
-arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
-
-
-<img width="378" height="137" alt="image" src="https://github.com/user-attachments/assets/6c3dee09-9747-4e90-8c0f-7f7704c48bb7" />
-<img width="489" height="138" alt="image" src="https://github.com/user-attachments/assets/a14ee58f-284d-451a-9bb8-3e45aec9cc31" />
+<img width="407" height="116" alt="image" src="https://github.com/user-attachments/assets/16d426cd-50ab-4d1f-a0b6-988303c5beb9" />
+<img width="468" height="246" alt="image" src="https://github.com/user-attachments/assets/989defa1-021e-452d-b449-754fa8a5270f" />
 
 
 ## Задача 3. Реверс массива
@@ -447,10 +441,7 @@ arr = [1, 2, 3, 4, 5] - arr = [5, 4, 3, 2, 1]
 
 ### Тестирование
 
-arr[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
-
-
-<img width="370" height="55" alt="image" src="https://github.com/user-attachments/assets/e2c12164-8dba-47a9-8785-0496efb163e6" />
+<img width="493" height="225" alt="image" src="https://github.com/user-attachments/assets/e82b7dac-710f-44b4-ab2a-7dfd26be5504" />
 
 
 ## Задача 4. Объединение массивов
@@ -473,11 +464,7 @@ arr1 = [1, 2, 3], arr2 = [7, 8, 9]
 
 ### Тестирование
 
-arr1[ARR_SIZE] = {1, 2, 3, 4, 5, 6}
-arr2[ARR_SIZE] = {7, 8, 9, 10, 11, 12}
-
-
-<img width="366" height="80" alt="image" src="https://github.com/user-attachments/assets/111a0a61-9fde-4f0c-a023-f170b5e18368" />
+<img width="459" height="433" alt="image" src="https://github.com/user-attachments/assets/a5041e45-44e1-4dc7-80ef-7c4e6a042375" />
 
 
 ## Задача 5. Удаление отрицательных
@@ -500,8 +487,5 @@ arr = [1, 2, -3, 4, -2, 2, -5]
 
 ### Тестирование
 
-arr[ARR_SIZE] = {1, -2, 3, -4, -5, 6}
-
-
-<img width="343" height="70" alt="image" src="https://github.com/user-attachments/assets/1e2f251e-8021-4f6f-913b-e53aa0b6355f" />
-
+<img width="502" height="244" alt="image" src="https://github.com/user-attachments/assets/d17f535a-eec2-4c59-824a-d41af0aaed2f" />
+<img width="460" height="256" alt="image" src="https://github.com/user-attachments/assets/a89bed77-2c9e-44c1-ba2a-dc1454e6cc8c" />
