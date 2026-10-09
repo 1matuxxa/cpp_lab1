@@ -36,7 +36,9 @@ bool isUpperCase(char x) {
 }
 
 bool isDivisor(int x, int y) {
-    if (x == 0 || y == 0) return false;
+    if (x == 0 || y == 0) {
+        return false;
+    }
     return (x % y == 0) || (y % x == 0);
 }
 
@@ -56,11 +58,9 @@ double safeDiv(int x, int y) {
 std::string makeDecision(int x, int y) {
     if (x > y) {
         return std::to_string(x) + " > " + std::to_string(y);
-    }
-    else if (x < y) {
+    } else if (x < y) {
         return std::to_string(x) + " < " + std::to_string(y);
-    }
-    else {
+    } else {
         return std::to_string(x) + " == " + std::to_string(y);
     }
 }
@@ -68,14 +68,11 @@ std::string makeDecision(int x, int y) {
 bool sum3(int x, int y, int z) {
     if (x + y == z) {
         return true;
-    }
-    else if (x + z == y) {
+    } else if (x + z == y) {
         return true;
-    }
-    else if (z + y == x) {
+    } else if (z + y == x) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -83,14 +80,11 @@ bool sum3(int x, int y, int z) {
 std::string age(int x) {
     if (x % 100 >= 11 && x % 100 <= 14) {
         return std::to_string(x) + " лет";
-    }
-    else if (x % 10 == 1) {
+    } else if (x % 10 == 1) {
         return std::to_string(x) + " год";
-    }
-    else if (x % 10 == 2 || x % 10 == 3 || x % 10 == 4) {
+    } else if (x % 10 == 2 || x % 10 == 3 || x % 10 == 4) {
         return std::to_string(x) + " года";
-    }
-    else {
+    } else {
         return std::to_string(x) + " лет";
     }
 }
@@ -193,8 +187,7 @@ int findLast(int arr[], int size, int x) {
 int* add(int arr[], int size, int x, int pos) {
     if (pos < 0) {
         pos = 0;
-    }
-    else if (pos > size) {
+    } else if (pos > size) {
         pos = size;
     }
     int* result = new int[size + 1];
@@ -507,7 +500,9 @@ int main() {
             case 16: {
                 int arr[100];
                 int size = inputArray(arr, 100);
-                if (size == -1) break;
+                if (size == -1) {
+                    break;
+                }
 
                 int x = 0;
                 std::cout << "Введите x: ";
@@ -524,7 +519,9 @@ int main() {
             case 17: {
                 int arr[100];
                 int size = inputArray(arr, 100);
-                if (size == -1) break;
+                if (size == -1) {
+                    break;
+                }
 
                 int x = 0, pos = 0;
                 std::cout << "Введите число для вставки: ";
@@ -547,7 +544,9 @@ int main() {
 
                 int* res = add(arr, size, x, pos);
                 std::cout << "Результат: \n";
-                for (int i = 0; i < size + 1; i++) std::cout << res[i] << " ";
+                for (int i = 0; i < size + 1; i++) {
+                    std::cout << res[i] << " ";
+                }
                 std::cout << "\n";
                 delete[] res;
                 break;
@@ -555,11 +554,15 @@ int main() {
             case 18: {
                 int arr[100];
                 int size = inputArray(arr, 100);
-                if (size == -1) break;
+                if (size == -1) {
+                    break;
+                }
 
                 reverse(arr, size);
                 std::cout << "Перевернутый: ";
-                for (int i = 0; i < size; i++) std::cout << arr[i] << " ";
+                for (int i = 0; i < size; i++) {
+                    std::cout << arr[i] << " ";
+                }
                 std::cout << "\n";
                 break;
             }
@@ -567,11 +570,15 @@ int main() {
                 int arr1[100], arr2[100];
                 std::cout << "Первый массив: \n";
                 int size1 = inputArray(arr1, 100);
-                if (size1 == -1) break;
+                if (size1 == -1) {
+                    break;
+                }
 
                 std::cout << "Второй массив: \n";
                 int size2 = inputArray(arr2, 100);
-                if (size2 == -1) break;
+                if (size2 == -1) {
+                    break;
+                }
 
                 int* res = concat(arr1, size1, arr2, size2);
                 std::cout << "Результат: \n";
