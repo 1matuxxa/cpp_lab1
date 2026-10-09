@@ -205,6 +205,7 @@ x = 8, y = -1, z = 4 - результат: false
 
 <img width="456" height="104" alt="image" src="https://github.com/user-attachments/assets/0b24317a-4194-4cda-a319-5b241b433be1" />
 <img width="492" height="108" alt="image" src="https://github.com/user-attachments/assets/9b45f840-4d26-465c-96c3-5d4a7ecbd84a" />
+<img width="507" height="88" alt="image" src="https://github.com/user-attachments/assets/748630f5-21ed-4a71-bed2-c3fc77c04d51" />
 
 
 ## Задача 4. Возраст
@@ -235,7 +236,6 @@ x = 8, y = -1, z = 4 - результат: false
 <img width="400" height="105" alt="image" src="https://github.com/user-attachments/assets/cff637e3-9b88-4178-b0ef-f1ef4ba57394" />
 <img width="345" height="109" alt="image" src="https://github.com/user-attachments/assets/7deedde5-ddd6-41b8-a48e-7998479ae519" />
 <img width="335" height="113" alt="image" src="https://github.com/user-attachments/assets/74111017-e81b-44c9-b454-152b1a86ebfa" />
-
 
 
 ## Задача 5. Вывод дней недели
